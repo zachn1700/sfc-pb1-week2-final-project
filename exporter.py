@@ -40,9 +40,9 @@ def export_report(sat_data, filename="output/report_output.txt"):
 
         # TLE Block
         f.write(f"{small_border}\n")
-        f.write(" [SPACES MARKED WITH '*']\n")
+        f.write(" [SPACES MARKED WITH '*']\n\n")
         f.write(f" {sat_data['line1'].replace(' ', '*')}\n")
-        f.write(f" {sat_data['line2'].replace(' ', '*')}\n")
+        f.write(f" {sat_data['line2'].replace(' ', '*')}\n\n")
         f.write(f"{small_border}\n")
 
         # Footer
