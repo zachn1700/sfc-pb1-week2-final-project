@@ -1,3 +1,10 @@
+### Satellite TLE Fetcher
+This program queries Celestrak.org for satelllite ephemeris (TLEs). The program will ask a user to input a NORAD / SSC number and then will output a report with TLEs, epoch time, data status, and the age of the TLE. The program currently outputs this report into a .txt file as well as to the console.
+
+This program was developed as my capstone project for the PY101 course, taught by Galvanize.
+
+Below is the original readme file.
+
 # Week 2 Final Project - Console Application
 
 ## Your Mission
@@ -94,3 +101,4 @@ When you're done:
 This is YOUR project. Make it yours. Build something you're proud of.
 
 **Good luck, and have fun!**
+
