@@ -87,8 +87,9 @@ if __name__ == "__main__":
 
 # TODO
 # Batch processing multiple SSCs at once
-# "Sat presets" to "save" multiple sats in a list/preset and query/batch process
-# them at once.
-#
-#
+# "Sat presets" to save multiple sats in a list/preset and query/batch process
+# them at once
+# Fix output file to append instead of overwrite when batch processing multiple
+# sats
+# Colors or better formatting for terminal output
 #
